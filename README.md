@@ -32,7 +32,14 @@ cd parking-space-detection
 ```
 
 ### 2. Install the Required Dependencies
-Ensure Python is installed, then use the following command to install dependencies:
+
+The following packages are required to run the application:
+- Flask
+- OpenCV
+- TensorFlow/Keras
+- NumPy
+- Pickle
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -58,20 +65,6 @@ python app.py
 3. **Overlay Information**: The status of each parking space is overlaid onto the video feed, providing a clear visual display of real-time availability.
 4. **Space Count API**: The `/space_count` API endpoint returns a JSON response with the current number of free and occupied spaces.
 
----
-
-## 📦 Dependencies
-The following packages are required to run the application:
-- Flask
-- OpenCV
-- TensorFlow/Keras
-- NumPy
-- Pickle
-
-Install them using:
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
